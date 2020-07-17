@@ -1,5 +1,5 @@
 ### Hi there 👋 
-## I am Kaif Kohari, A Machine Learning Enthusiast and a Software Developer.
+### I am Kaif Kohari, A Machine Learning Enthusiast and a Software Developer.
 
 * 🔭 I’m love building Machine Learning and Deep Learning models from research to production.
 * 🌱 I’m currently learning containers.
@@ -9,11 +9,11 @@
 * ⚡ Skills: A.I, Python, C++, Javascript,Django, Flask, Docker, Responsive Web design.
 * Other Interests: Maths and Particle Physics.
 
-# Connect with me on:
+### Connect with me on:
 * https://www.linkedin.com/in/kaif-kohari-a34433190/
 * https://twitter.com/Kaif76200535
 
-# My blogs:
+### My blogs:
 * https://medium.com/@kaifkohari10
 
 
