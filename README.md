@@ -15,6 +15,7 @@ Connect with me on:
 https://www.linkedin.com/in/kaif-kohari-a34433190/
 https://twitter.com/Kaif76200535
 
+![Kaif's twitter](https://turbologo.com/articles/wp-content/uploads/2019/07/twitter-bird-logo.png.webp)
 
 
 ![Kaif's github stats](https://github-readme-stats.vercel.app/api?username=Kaif10)
