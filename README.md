@@ -2,8 +2,7 @@
 ### I am Kaif Kohari, A Machine Learning Enthusiast and a Software Developer.
 
 * 🔭 I love building Machine Learning and Deep Learning models from research to production.
-* 👯 I’m looking to collaborate on Projects and Hackathons.
-* 🤔 I’m looking to contribute to Open Source.
+* 🤔 Looking to contribute to Open Source.
 * 📫 Any queries? reach out to me on LinkedIn- * https://www.linkedin.com/in/kaif-kohari-a34433190/.
 * ⚡ Skills: Machine Learning, Python, C++, Javascript, Reactjs, Django, Flask, Docker, Responsive Web design, Cloud.
 *  When I am not writing code, I am either watching videos on YouTube about blackholes, Supernovae and other Cosmos stuff or playing football.
