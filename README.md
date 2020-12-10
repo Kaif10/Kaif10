@@ -12,7 +12,7 @@
 * [Twitter](https://twitter.com/Kaif76200535)
 
 ### Read My Technical blogs:
-* https://medium.com/@kaifkohari10
+[Medium Blogs](https://medium.com/@kaifkohari10)
 
 
 
