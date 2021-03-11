@@ -4,8 +4,8 @@
 * 🔭 I love building Machine Learning and Deep Learning models from research to production.
 * 🤔 Looking to contribute to Open Source.
 * 📫 Any queries? reach out to me on [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
-* ⚡ Skills: Machine Learning, Python, C++, Javascript, Reactjs, Django, Flask, Docker, Responsive Web design, Cloud.
-*  When I am not writing code, I am either watching videos on YouTube about blackholes, Supernovae and other Cosmos stuff or playing football.
+* ⚡ Skills: Machine Learning, Python, C++, Javascript, Reactjs, Django, Flask, Docker, Responsive Web design.
+
 
 ### Connect with me on:
 * [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
