@@ -11,6 +11,15 @@
 * [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
 * [Twitter](https://twitter.com/Kaif76200535)
 
+### Experience
+
+* ⚡ Machine Learning Research Intern at Asmay
+* ⚡ Computer Vision Engineer at Tungsten Studios.
+* ⚡ Machine Learning Intern at NGO OYE Organization.
+* ⚡ Joint Tech Head of Computer Society of India (SFIT)
+
+
+
 ### Read My Technical blogs:
 [Medium Blogs](https://medium.com/@kaifkohari10)
 
