@@ -10,7 +10,7 @@
 
 ### Connect with me on:
 * [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
-* [Twitter](https://twitter.com/Kaif76200535)
+
 
 ### Experience
 
