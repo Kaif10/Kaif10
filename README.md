@@ -16,8 +16,8 @@
 
 * ⚡ Machine Learning Research Intern at Asmay
 * ⚡ Computer Vision Engineer at Tungsten Studios.
-* ⚡ Machine Learning Intern at an NGO called OYE Organization.
-* ⚡ Joint Tech Head of Computer Society of India (SFIT)
+* ⚡ Machine Learning Intern at an (NGO) OYE Organization.
+* ⚡ Computer Vision Intern at Vsualthree60
 
 
 
