@@ -18,6 +18,7 @@
 * ⚡ Computer Vision Engineer at Tungsten Studios.
 * ⚡ Machine Learning Intern at an (NGO) OYE Organization.
 * ⚡ Computer Vision Intern at Vsualthree60
+* ⚡ Tech Blogger at KnowledgeHut
 
 
 
