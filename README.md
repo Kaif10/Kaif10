@@ -14,7 +14,7 @@
 * [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
 
 
-### Connect with me on:
+### Mail me on:
 * Gmail: kaifkohari10@gmail.com
 
   
