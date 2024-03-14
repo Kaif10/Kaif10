@@ -15,7 +15,7 @@
 
 
 ### Connect with me on:
-* [Gmail](kaifkohari10@gmail.com)
+* Gmail: kaifkohari10@gmail.com
 
   
 
