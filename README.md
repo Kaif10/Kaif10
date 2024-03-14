@@ -6,7 +6,6 @@
 * 🤔 Looking to contribute to Open Source.
 * ⚡ Currently focusing on Large Langauge models, Generative AI and Cloud.
 * 📫 Any queries? reach out to me on [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
-* 
 * ⚡ Skills: Machine Learning, Python, C++, Javascript, Reactjs, Django, Flask, Responsive Web design.
 
 
