@@ -1,5 +1,6 @@
 ### Hi there 👋 
 ### I am Kaif Kohari, A Machine Learning Developer and a Cloud Enthusiast.
+#### Based in London, UK.
 
 * 🔭 I love building Machine Learning and Deep Learning models from research to production.
 * 🔭 I also love to write tech blogs to guide people about whatever I learned. (My medium:@kaifkohari10).
