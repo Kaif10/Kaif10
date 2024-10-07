@@ -24,6 +24,7 @@
 * ⚡ Masters in Applied Data Science at Royal Holloway University, London.
 
 ### Work
+* ⚡ Machine Learning Intern at Syntagma Labs, London.
 * ⚡ Speaker Coordinator at AI Frontiers Forums, London.
 * ⚡ Machine Learning Engineer at ZCLAP, Texas
 * ⚡ Computer Vision Intern at Tungsten Studios, Bangalore.
