@@ -13,7 +13,8 @@
 ### Connect with me on:
 * [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
 
-
+### Portfolio:
+* [CV]((https://kaif10.github.io/ML%20Developer.pdf))
 ### Mail me on:
 * Gmail: kaifkohari10@gmail.com
 
