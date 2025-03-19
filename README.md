@@ -1,44 +1,90 @@
-### Hi there 👋 
-### I am Kaif Kohari, A Machine Learning Developer and a Cloud Enthusiast.
-#### Based in London, UK.
+<h1 align="center">Hello, I'm Kaif Kohari! 👋</h1>
 
-* 🔭 I love building Machine Learning and Deep Learning models from research to production.
-* 🔭 I also love to write tech blogs to guide people about whatever I learned. (My medium:@kaifkohari10).
-* 🤔 Always excited to contribute to Open Source.
-* ⚡ Currently focusing on Large Langauge models, Generative AI and Cloud Computing.
-* 📫 Any queries? reach out to me on [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
-* ⚡ Skills: MLOps, ML Research, Cloud, Python, C++, Javascript, Reactjs, Django, Flask, Responsive Web design.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Kaif10&style=flat-square&color=blue" alt="Profile Views"/>
+</p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/kaif-kohari-a34433190/">
+    <img src="https://img.shields.io/badge/LinkedIn-Kaif%20Kohari-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+  <a href="https://kaif10.github.io/ML%20Developer.pdf">
+    <img src="https://img.shields.io/badge/Portfolio-Resume-green?style=for-the-badge&logo=About.me" alt="Portfolio"/>
+  </a>
+  <a href="mailto:kaifkohari10@gmail.com">
+    <img src="https://img.shields.io/badge/Email-kaifkohari10@gmail.com-red?style=for-the-badge&logo=gmail" alt="Email"/>
+  </a>
+</p>
 
-### Connect with me on:
-* [LinkedIn](https://www.linkedin.com/in/kaif-kohari-a34433190/)
+---
 
-### Portfolio:
-* [CV](https://kaif10.github.io/ML%20Developer.pdf)
-### Mail me on:
-* Gmail: kaifkohari10@gmail.com
+## About Me
 
-## Read my latest blog:
-[A beginners guide to MLOps](https://medium.com/@kaifkohari10/a-beginners-guide-to-mlops-f762e61ad1f0)
+- 👨‍💻 I’m a **Machine Learning Developer & Cloud Enthusiast** based in **London, UK**.
+- 🔭 I build **ML & Deep Learning models** from research to production.
+- 💡 I share my learnings on tech blogs. Check out my work on [Medium](https://medium.com/@kaifkohari10).
+- 🚀 Currently exploring **Large Language Models, Generative AI, and Cloud Computing**.
+- 🤝 Passionate about contributing to **Open Source**.
 
-### Acad
-* ⚡ Masters in Applied Data Science at Royal Holloway University, London.
+---
 
-### Work
-* ⚡ Machine Learning Intern at Syntagma Labs, London.
-* ⚡ Speaker Coordinator at AI Frontiers Forums, London.
-* ⚡ Machine Learning Engineer at ZCLAP, Texas
-* ⚡ Computer Vision Intern at Tungsten Studios, Bangalore.
-* ⚡ Data Science Intern at an (NGO) OYE Organization, Bombay.
-* ⚡ Computer Vision Intern at Vsualthree60, Bangalore.
-* ⚡ Freelance tech blogger at KnowledgeHut, Orchids International school and Medium.
+## Skills & Technologies
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
+</p>
 
+---
 
-### Read My Technical blogs:
-[Medium Blogs](https://medium.com/@kaifkohari10)
+## Education
 
+- **Masters in Applied Data Science**  
+  Royal Holloway, University of London
 
+---
 
-![My github stats](https://github-readme-stats.vercel.app/api?username=Kaif10)
+## Work Experience
+
+- **Machine Learning Intern** at Syntagma Labs, London  
+- **Speaker Coordinator** at AI Frontiers Forums, London  
+- **Machine Learning Engineer** at ZCLAP, Texas  
+- **Computer Vision Intern** at Tungsten Studios, Bangalore  
+- **Data Science Intern** at OYE Organization, Bombay  
+- **Computer Vision Intern** at Vsualthree60, Bangalore  
+- **Freelance Tech Blogger** for KnowledgeHut, Orchids International School & Medium
+
+---
+
+## Latest Blog Post
+
+[🔗 A Beginner's Guide to MLOps](https://medium.com/@kaifkohari10/a-beginners-guide-to-mlops-f762e61ad1f0)
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Kaif10&show_icons=true&count_private=true&theme=radical" alt="Kaif's GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaif10&theme=radical" alt="GitHub Streak Stats"/>
+</div>
+
+---
+
+## Connect with Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/kaif-kohari-a34433190/">
+    <img src="https://img.shields.io/badge/LinkedIn-Kaif%20Kohari-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:kaifkohari10@gmail.com">
+    <img src="https://img.shields.io/badge/Email-kaifkohari10@gmail.com-red?style=for-the-badge&logo=gmail" alt="Email"/>
+  </a>
+</p>
+
 
