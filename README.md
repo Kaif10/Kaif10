@@ -22,8 +22,8 @@
 
 - 👨‍💻 I’m a **Machine Learning Engineer & Cloud Enthusiast** based in **London, UK**.
 - 🔭 I build **ML & Deep Learning models** from research to production.
+- 🚀 Currently building **AI Agents, Compound AI systems, Generative AI, and Cloud Computing**.
 - 💡 I share my learnings on tech blogs. Check out my work on [Medium](https://medium.com/@kaifkohari10).
-- 🚀 Currently exploring **AI Agents, Compound AI systems, Generative AI, and Cloud Computing**.
 - 🤝 Passionate about contributing to **Open Source**.
 
 ---
