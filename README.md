@@ -39,7 +39,6 @@
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/ML%20Research-FF69B4?style=for-the-badge&logo=data&logoColor=white" alt="ML Research"/>
   <img src="https://img.shields.io/badge/MLOps-6600CC?style=for-the-badge&logo=jenkins&logoColor=white" alt="MLOps"/>
-  <img src="https://img.shields.io/badge/AI-AGENTS-092E20?style=for-the-badge&logo=django&logoColor=white" alt="AI Agents"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
   <img src="https://img.shields.io/badge/Kubeflow-0080FF?style=for-the-badge&logo=&logoColor=white" alt="Kubeflow"/>
