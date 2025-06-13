@@ -18,6 +18,13 @@
 
 ---
 
+## 🚧 Currently Building
+
+- 🧠 Working on a **Resume Screening agent** using GPT-4, LangChain, and multi-agent architecture. It checks writing quality, verifies work experience, education, and other things and gives a verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
+- ✅ [Live Demo]([https://resume-review.streamlit.app](https://multi-agent-hr.streamlit.app/#cv-verifier-multi-agent-hr))
+
+---
+
 ## About Me
 
 - 👨‍💻 I’m a **Machine Learning Engineer & Cloud Enthusiast** based in **London, UK**.
