@@ -20,7 +20,7 @@
 
 ## 🚧 Currently Building
 
-- 🧠 Working on a **Resume Screening agent** using GPT-4, LangChain, and multi-agent architecture. It checks writing quality, verifies work experience, education, and other things and gives a verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
+- 🧠 Working on a **Resume verifier tool**  thats uses multi-agent architecture. It checks writing quality, verifies work experience, education, and other things and gives a verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
 - ✅ [Live Demo](https://multi-agent-hr.streamlit.app/#cv-verifier-multi-agent-hr)
 
 ---
