@@ -23,7 +23,7 @@
 - 🧠 Working on a **Resume verifier tool**  thats uses multi-agent architecture. It checks writing quality, verifies work experience, education, and other things and gives a verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
 - ✅ [Live Demo](https://multi-agent-hr.streamlit.app/#cv-verifier-multi-agent-hr)
 
-- - 🧠 Working on a **RAG tool**  thats uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with your organization's and personal data.  
+- 🧠 Building a **RAG tool**  thats uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with your organization's and personal data.  
 - ✅ [Live Demo]- Soon
 
 ---
