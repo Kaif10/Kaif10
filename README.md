@@ -24,7 +24,7 @@
 - ✅ [Live Demo](https://multi-agent-hr.streamlit.app/#cv-verifier-multi-agent-hr)
 
 - 🧠 Building **Fin-agent**, an agentic RAG for financial documents thats uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with financial data and download interactive csvs of KPIs. annual revenues and more.  
-- ✅ [Live Demo]- Soon
+- ✅ [Live Demo](http://financelab.click:8000/)
 
 ---
 
