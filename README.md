@@ -23,7 +23,7 @@
 - 🧠 Working on a **Resume verifier tool**  thats uses multi-agent architecture. It checks writing quality, verifies work experience, education, and other things and gives a verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
 - ✅ [Live Demo](https://multi-agent-hr.streamlit.app/#cv-verifier-multi-agent-hr)
 
-- 🧠 Building **Fin-agent**, an agentic RAG for financial documents thats uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with financial data and download interactive csvs of KPIs. annual revenues and more.  
+- 🧠 Building **Finance Lab**, an agentic RAG for financial documents thats uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with financial pdfs like 10Ks, 10Qs, merger acquisitions and more and extract KPIs. annual revenues, etc.  
 - ✅ [Live Demo](http://financelab.click:8000/)
 
 ---
