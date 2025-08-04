@@ -20,7 +20,7 @@
 
 ## 🚧 Currently Building
 
-- 🧠 Building **Finance Lab**, an agentic RAG for financial documents thats uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with financial pdfs like 10Ks, 10Qs, merger acquisitions and more and extract KPIs. annual revenues, etc.  
+- 🧠 Building **Finance Lab**, an agentic RAG to help financial analysts avoid reading 100s of pages of SEC fillings. It uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with your pdfs like 10Ks, 10Qs, merger acquisitions and more and extract structured data like KPIs. annual revenues, etc in seconds.  
 - ✅ [Live Demo](http://financelab.click:8000/)
 
 - 🧠 Working on a **Resume verifier tool**  thats uses multi-agent architecture. It checks writing quality, verifies work experience, education, and other things and gives a verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
