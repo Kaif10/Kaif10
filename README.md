@@ -18,7 +18,7 @@
 
 ---
 
-## Latest Blog Post
+## Read my latest Blog 
 
 [🔗 From Next-Token Prediction to Reasoning Machines...](https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1)
 
