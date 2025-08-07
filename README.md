@@ -18,12 +18,18 @@
 
 ---
 
+## Latest Blog Post
+
+[🔗 From Next-Token Prediction to Reasoning Machines...](https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1)
+
+---
+
 ## 🚧 Currently Building
 
-- 🧠 Building **Finance Lab**, an agentic RAG to help financial analysts avoid reading 100s of pages of SEC fillings. It uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with your pdfs like 10Ks, 10Qs, merger acquisitions and more and extract structured data like KPIs. annual revenues, etc in seconds.  
+- 🧠 Building **Finance Lab**, an agentic RAG to help financial analysts avoid reading 100s of pages of SEC fillings. It uses different chunking and retriveal strategies to give you the best RAG pipeline to talk with your pdfs like 10Ks, 10Qs, merger acquisitions, etc and extract structured data like KPIs. annual revenues, etc in seconds.  
 - ✅ [Live Demo](http://financelab.click:8000/)
 
-- 🧠 Working on a **Resume verifier tool**  thats uses multi-agent architecture. It checks writing quality, verifies work experience, education, and other things and gives a verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
+- 🧠 Working on a multi agentic **Resume verifier tool**  thats uses multiple agents working in sync to check writing quality, verify work experience, education, and other things and give a final verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
 - ✅ [Live Demo](https://multi-agent-hr.streamlit.app/#cv-verifier-multi-agent-hr)
 
 
@@ -31,10 +37,10 @@
 
 ## About Me
 
-- 👨‍💻 I’m a **Machine Learning Engineer & Cloud Enthusiast** based in **London, UK**.
+- 👨‍💻 I’m a **Machine Learning Engineer** based in **London, UK**.
 - 🔭 I build **ML & Deep Learning models** from research to production.
 - 🚀 Currently building **Agentic RAG and compound AI systems**.
-- 🚀 Passionate about improving LLM reasoning, achieving SOTA results with small models and leveraging RL techniques.
+- 🚀 Passionate about improving **LLM reasoning, achieving SOTA results with small models and leveraging RL techniques**.
 - 💡 I share my learnings on tech blogs. Check out my work on [Medium](https://medium.com/@kaifkohari10).
 - 🤝 Passionate about contributing to **Open Source**.
 
@@ -76,11 +82,6 @@
 ---
 
 
-## Latest Blog Post
-
-[🔗 Going back to the root of all great LLMs…](https://medium.com/@kaifkohari10/going-back-to-the-root-of-all-great-llms-dc001cb0258f)
-
----
 
 ## GitHub Stats
 
