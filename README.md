@@ -19,7 +19,8 @@
 ---
 
 ## Read my latest Blog 
-[I Built a Team of AI Agents to Automate My Job Hunt](https://kaifkohari10.medium.com/i-built-a-team-of-ai-agents-to-automate-my-job-hunt-9f210c8a20b2)
+[🔗 I Built a Team of AI Agents to Automate My Job Hunt](https://kaifkohari10.medium.com/i-built-a-team-of-ai-agents-to-automate-my-job-hunt-9f210c8a20b2)
+
 [🔗 From Next-Token Prediction to Reasoning Machines...](https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1)
 
 ---
