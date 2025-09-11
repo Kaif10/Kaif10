@@ -19,6 +19,8 @@
 ---
 
 ## Read my latest Blogs
+[🔗 I built a multi agentic system that sends emails, reads emails and schedules meetings for you](https://medium.com/@kaifkohari10/i-built-a-multi-agentic-system-that-sends-emails-reads-emails-and-schedules-meetings-for-you-65415621e490)
+
 [🔗 I Built a Team of AI Agents to Automate My Job Hunt](https://kaifkohari10.medium.com/i-built-a-team-of-ai-agents-to-automate-my-job-hunt-9f210c8a20b2)
 
 [🔗 From Next-Token Prediction to Reasoning Machines...](https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1)
