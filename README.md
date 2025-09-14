@@ -33,7 +33,7 @@
 - ✅ [Live Demo](http://financelab.click:8000/)
 
 - 🧠 Working on a multi agentic **Resume verifier tool**  thats uses multiple agents working in sync to check writing quality, verify work experience, education, and other things and give a final verdict for recruiters discarding fake/fluff CVs to maker HRs life easily.
--
+
 
 
 ---
