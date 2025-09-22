@@ -75,11 +75,9 @@
 ---
 
 
-## Master's Dissertation
+## Master's Thesis
 
-- **Title:** Video Action-Recognition for Crowd Surveillance  
-- **Overview:** Implemented a deep learning solution combining ResNet-152, LSTM, and an Attention Mechanism to perform video action-recognition for crowd surveillance.  
-- **Achievements:** Achieved 97% accuracy, demonstrating the efficacy of integrating CNNs with temporal models for real-world surveillance challenges.  
+[Research - Spatiotemporal Action Recognition in Videos Using ConvLSTM with Attention: A Comparative Analysis and Implementation](https://zenodo.org/records/16738167)
 [Github Repo](https://github.com/Kaif10/Action-Recognition-in-Videos)
 
 ---
