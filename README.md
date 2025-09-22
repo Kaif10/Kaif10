@@ -78,7 +78,8 @@
 ## Master's Thesis
 
 [Research - Spatiotemporal Action Recognition in Videos Using ConvLSTM with Attention: A Comparative Analysis and Implementation](https://zenodo.org/records/16738167)
-[Github Repo](https://github.com/Kaif10/Action-Recognition-in-Videos)
+
+[Code repository](https://github.com/Kaif10/Action-Recognition-in-Videos)
 
 ---
 
