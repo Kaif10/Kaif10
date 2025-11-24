@@ -19,7 +19,7 @@
 ---
 
 ## Read my latest Blogs
-[🔗 I built a multi agentic system that sends emails, reads emails and schedules meetings for you](https://medium.com/@kaifkohari10/i-built-a-multi-agentic-system-that-sends-emails-reads-emails-and-schedules-meetings-for-you-65415621e490)
+[🔗 Splitting open RL post training](https://medium.com/@kaifkohari10/splitting-open-rl-post-training-part-1-2065cf31314e)
 
 [🔗 I Built a Team of AI Agents to Automate My Job Hunt](https://kaifkohari10.medium.com/i-built-a-team-of-ai-agents-to-automate-my-job-hunt-9f210c8a20b2)
 
