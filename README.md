@@ -32,9 +32,7 @@
 
 - 👨‍💻 I’m a **Machine Learning Engineer** based in **London, UK**.
 - 🔭 I build **ML & Deep Learning models** from research to production.
-- 🚀 Currently building **Agentic RAG and compound AI systems**.
 - 🚀 Passionate about improving **LLM reasoning, achieving SOTA results with small models and leveraging RL techniques**.
-- 💡 I share my learnings on tech blogs. Check out my work on [Medium](https://medium.com/@kaifkohari10).
 - 🤝 Passionate about contributing to **Open Source**.
 
 ---
