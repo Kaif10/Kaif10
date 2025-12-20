@@ -16,15 +16,6 @@
   </a>
 </p>
 
----
-
-## Read my latest Blogs
-[🔗 Splitting open RL post training](https://medium.com/@kaifkohari10/splitting-open-rl-post-training-part-1-2065cf31314e)
-
-[🔗 I Built a Team of AI Agents to Automate My Job Hunt](https://kaifkohari10.medium.com/i-built-a-team-of-ai-agents-to-automate-my-job-hunt-9f210c8a20b2)
-
-[🔗 From Next-Token Prediction to Reasoning Machines...](https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1)
-
 
 ---
 
@@ -34,31 +25,6 @@
 - 🔭 I build **ML & Deep Learning models** from research to production.
 - 🚀 Passionate about improving **LLM reasoning, achieving SOTA results with small models and leveraging RL techniques**.
 - 🤝 Passionate about contributing to **Open Source**.
-
----
-
-## Skills & Technologies
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/ML%20Research-FF69B4?style=for-the-badge&logo=data&logoColor=white" alt="ML Research"/>
-  <img src="https://img.shields.io/badge/MLOps-6600CC?style=for-the-badge&logo=jenkins&logoColor=white" alt="MLOps"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Kubeflow-0080FF?style=for-the-badge&logo=&logoColor=white" alt="Kubeflow"/>
-</p>
-
----
-
-## Education
-
-- **Masters in Applied Data Science** (2023-2024)  
-  *Royal Holloway, University of London (Distinction)*
 
 ---
 
