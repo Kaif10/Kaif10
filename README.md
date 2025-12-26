@@ -46,9 +46,10 @@
        src="https://github-readme-stats.vercel.app/api?username=Kaif10&show_icons=true&theme=radical&cache_seconds=86400"
        alt="Kaif's GitHub Stats" />
   <img height="180"
-       src="https://streak-stats.demolab.com/?user=Kaif10&theme=radical"
+       src="https://streak-stats.demolab.com?user=Kaif10&theme=radical"
        alt="Kaif's GitHub Streak" />
 </p>
+
 
 
 ---
