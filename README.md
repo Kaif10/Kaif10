@@ -41,10 +41,15 @@
 
 ## GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kaif10&show_icons=true&count_private=true&theme=radical" alt="Kaif's GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaif10&theme=radical" alt="GitHub Streak Stats"/>
-</div>
+<p align="center">
+  <img height="180"
+       src="https://github-readme-stats.vercel.app/api?username=Kaif10&show_icons=true&theme=radical&cache_seconds=86400"
+       alt="Kaif's GitHub Stats" />
+  <img height="180"
+       src="https://streak-stats.demolab.com/?user=Kaif10&theme=radical"
+       alt="Kaif's GitHub Streak" />
+</p>
+
 
 ---
 
