@@ -52,13 +52,12 @@
 
 🧪 &nbsp;Often the **founding ML engineer** at growing teams, owning the full path from research to deployed, monitored infrastructure.
 
-🎓 &nbsp;**BE** @ University of Mumbai (SFIT) &nbsp;•&nbsp; **MSc Applied Data Science** @ University of London *(Distinction)*
+🎓 &nbsp; **Master in Applied Data Science** @ University of London *(Distinction)*
 
 ⚡ &nbsp;Deep interest in **LLM Reasoning**, **Multi-Agent Systems**, **Low-Latency Inference**, and **Reinforcement Learning**.
 
 🤝 &nbsp;Passionate about **open source** and writing about ML on [Medium](https://medium.com/@kaifkohari10).
 
-💬 &nbsp;Ask me about **PyTorch, LangChain, vector retrieval, or anything LLM-flavoured**.
 
 <br clear="right"/>
 
@@ -99,14 +98,13 @@
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
 
-**Backend & MLOps**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+**Backend & MLOps**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
