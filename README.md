@@ -28,9 +28,15 @@
 <img src="https://komarev.com/ghpvc/?username=Kaif10&style=flat-square&color=4F8CFF&label=Profile+Views" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/Kaif10?label=Followers&style=flat-square&color=4F8CFF" alt="Followers"/>
 
-<br/><br/>
+<br/>
 
-<img src="https://img.shields.io/badge/%F0%9F%9A%80%20Currently%20building%20industrial--scale%20multi--agent%20systems%20%40%20London%20Export%20Corporation-0D1117?style=for-the-badge&labelColor=4F8CFF" alt="Current role"/>
+<table>
+<tr>
+<td>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1200&color=00E676&center=true&vCenter=true&width=540&height=40&lines=%F0%9F%9F%A2+Currently+%40+London+Export+Corporation;%F0%9F%A4%96+Building+industrial-scale+multi-agent+systems" alt="current status" />
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -118,9 +124,17 @@
 
 <img src="https://streak-stats.demolab.com?user=Kaif10&theme=tokyonight&hide_border=true&background=0D1117&stroke=4F8CFF&ring=4F8CFF&fire=FF6B6B&currStreakLabel=4F8CFF" alt="GitHub Streak"/>
 
-<br/><br/>
+</div>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Kaif10&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="Trophies"/>
+### 🐍 Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kaif10/Kaif10/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kaif10/Kaif10/output/github-contribution-grid-snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/Kaif10/Kaif10/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
@@ -139,7 +153,7 @@
 
 <div align="center">
 
-I'm always up for a chat about **, or anything AI, Aplying ML in financial markets, etc** — drop me a line.
+I'm always up for a chat about **LLM reasoning, multi-agent systems, low-latency ML, or applying ML in financial markets** — drop me a line.
 
 <a href="mailto:kaifkohari10@gmail.com">
   <img src="https://img.shields.io/badge/Reach_out-Send_an_email-4F8CFF?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email me"/>
