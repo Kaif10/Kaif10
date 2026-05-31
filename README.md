@@ -44,13 +44,12 @@
 
 <img align="right" width="35%" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding gif"/>
 
-> *"Translate research into robust, scalable production AI."*
 
-🔭 &nbsp;**Machine Learning Engineer** based in **London, UK** — currently building **industrial-scale multi-agent systems @ London Export Corporation**.
+🔭 &nbsp;**Machine Learning Engineer** based in **London** — currently building **Industrial-scale multi-agent systems @ London Export Corporation**.
 
 🧪 &nbsp;Often the **founding ML engineer** at growing teams, owning the full path from research to deployed, monitored infrastructure.
 
-🎓 &nbsp;**BE** @ University of Mumbai (SFIT) &nbsp;•&nbsp; **MSc Applied Data Science** @ University of London *(Distinction)*
+🎓 &nbsp; **Masters in Applied Data Science** @ University of London *(Distinction)*
 
 ⚡ &nbsp;Deep interest in **LLM Reasoning**, **Multi-Agent Systems**, **Low-Latency Inference**, and **Reinforcement Learning**.
 
@@ -76,18 +75,16 @@
 **ML / Deep Learning**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 **LLM / Agentic**
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-FF6F61?style=for-the-badge&logo=databricks&logoColor=white)
+
 
 **Data & Pipelines**
 
