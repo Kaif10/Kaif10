@@ -139,7 +139,7 @@
 
 <div align="center">
 
-I'm always up for a chat about **LLM reasoning, multi-agent systems, low-latency ML, or applying ML in financial markets** — drop me a line.
+I'm always up for a chat about **, or anything AI, Aplying ML in financial markets, etc** — drop me a line.
 
 <a href="mailto:kaifkohari10@gmail.com">
   <img src="https://img.shields.io/badge/Reach_out-Send_an_email-4F8CFF?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email me"/>
