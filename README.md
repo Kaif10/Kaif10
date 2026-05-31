@@ -28,32 +28,33 @@
 <img src="https://komarev.com/ghpvc/?username=Kaif10&style=flat-square&color=4F8CFF&label=Profile+Views" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/Kaif10?label=Followers&style=flat-square&color=4F8CFF" alt="Followers"/>
 
+<br/><br/>
+
+<img src="https://img.shields.io/badge/%F0%9F%9A%80%20Currently%20building%20industrial--scale%20multi--agent%20systems%20%40%20London%20Export%20Corporation-0D1117?style=for-the-badge&labelColor=4F8CFF" alt="Current role"/>
+
 </div>
 
 ---
 
 ## 🧠 &nbsp;About Me
 
-```python
-class KaifKohari:
-    def __init__(self):
-        self.role        = "Machine Learning Engineer"
-        self.location    = "London, UK 🇬🇧"
-        self.education   = ["BE @ University of Mumbai (SFIT)",
-                            "MSc Applied Data Science @ University of London — Distinction"]
-        self.focus       = ["LLM Reasoning", "Multi-Agent Systems",
-                            "Low-Latency Inference", "Reinforcement Learning"]
-        self.currently   = "Building agentic systems @ stealth startups"
-        self.philosophy  = "Translate research into robust, scalable production AI."
+<img align="right" width="35%" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding gif"/>
 
-    def say_hi(self):
-        print("Thanks for stopping by — let's build something brilliant. ✨")
-```
+> *"Translate research into robust, scalable production AI."*
 
-- 🔭 &nbsp;Often the **founding ML engineer** at growing teams — comfortable owning the full path from research to deployed, monitored infra.
-- 🧪 &nbsp;Currently exploring **LLM reasoning, agentic RAG, and squeezing SOTA performance out of small models**.
-- 🤝 &nbsp;Passionate about **open source** and writing about ML on [Medium](https://medium.com/@kaifkohari10).
-- 💬 &nbsp;Ask me about **PyTorch, LangChain, vector retrieval, or anything LLM-flavoured**.
+🔭 &nbsp;**Machine Learning Engineer** based in **London, UK** — currently building **industrial-scale multi-agent systems @ London Export Corporation**.
+
+🧪 &nbsp;Often the **founding ML engineer** at growing teams, owning the full path from research to deployed, monitored infrastructure.
+
+🎓 &nbsp;**BE** @ University of Mumbai (SFIT) &nbsp;•&nbsp; **MSc Applied Data Science** @ University of London *(Distinction)*
+
+⚡ &nbsp;Deep interest in **LLM Reasoning**, **Multi-Agent Systems**, **Low-Latency Inference**, and **Reinforcement Learning**.
+
+🤝 &nbsp;Passionate about **open source** and writing about ML on [Medium](https://medium.com/@kaifkohari10).
+
+💬 &nbsp;Ask me about **PyTorch, LangChain, vector retrieval, or anything LLM-flavoured**.
+
+<br clear="right"/>
 
 ---
 
@@ -74,7 +75,7 @@ class KaifKohari:
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 **LLM / Agentic**
@@ -106,69 +107,16 @@ class KaifKohari:
 
 ---
 
-## 🚀 &nbsp;Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Finance Lab
-**Agentic research assistant for hedge funds**
-
-An agentic RAG pipeline inspired by multi-hop retrieval and Self-RAG. Extracts and calculates financial metrics from SEC filings (10-Ks, 10-Qs) in seconds — cutting analyst research time by ~90%.
-
-`LangChain` · `Qdrant` · `FastAPI` · `AWS ECS Fargate` · `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎮 Video Game Describer
-**Story-to-game recommendation agent**
-
-A playful agent that turns your story descriptions into personalised game recommendations by analysing gameplay and genres via MCP tool calling and GPT-4o.
-
-`MCP` · `GPT-4o` · `Flask` · `Docker` · `AWS App Runner`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🩺 Pneumonia Diagnosis (CNN)
-**Medical imaging with deep learning**
-
-Trained and benchmarked three architectures for pneumonia diagnosis from chest X-rays — combining VGG16 transfer learning, full-model fine-tuning, and a custom CNN. Reached **93.6% test accuracy**.
-
-`TensorFlow` · `Keras` · `VGG16` · `Transfer Learning`
-
-</td>
-<td width="50%" valign="top">
-
-### 🐦 Twitter Emotion Detection
-**Sentiment analysis on COVID-era tweets**
-
-A bi-directional LSTM trained on real-time scraped Twitter data. Full ETL pipeline from raw tweets to model-ready dataset.
-
-`BiLSTM` · `BeautifulSoup` · `Selenium` · `NLTK` · `Pandas`
-
-</td>
-</tr>
-</table>
-
----
-
 ## 📈 &nbsp;GitHub Stats
 
 <div align="center">
 
-<a href="https://github.com/Kaif10">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Kaif10&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4F8CFF&icon_color=4F8CFF&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaif10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4F8CFF&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
-</a>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kaif10&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4F8CFF&icon_color=4F8CFF&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaif10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4F8CFF&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaif10&theme=tokyonight&hide_border=true&background=0D1117&stroke=4F8CFF&ring=4F8CFF&fire=FF6B6B&currStreakLabel=4F8CFF" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com?user=Kaif10&theme=tokyonight&hide_border=true&background=0D1117&stroke=4F8CFF&ring=4F8CFF&fire=FF6B6B&currStreakLabel=4F8CFF" alt="GitHub Streak"/>
 
 <br/><br/>
 
