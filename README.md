@@ -61,6 +61,27 @@
 
 ---
 
+## 🌍 &nbsp;Open-Source Contributions
+
+<div align="center">
+
+Fixes I've authored and landed in widely-used **AI / ML libraries** — every link goes straight to the PR.
+
+</div>
+
+| Project | Contribution | Status |
+|---|---|:--:|
+| 🤗 **Hugging Face · `datasets`** | [Path-traversal fix in folder-based dataset builders (#8325)](https://github.com/huggingface/datasets/pull/8325) — closed an arbitrary-file-read vector (CWE-22) from an unsanitized metadata `file_name`, covering fsspec chained-URL and symlink-escape cases | ✅ **Merged** |
+| ⚙️ **`statsmodels`** | [Correct Hessian handling for L-BFGS-B / TNC optimizers (#9908)](https://github.com/statsmodels/statsmodels/pull/9908) | ✅ **Merged** |
+| 📈 **`yfinance`** | [Fix read-only-array crash in dividend-adjust repair (#2897)](https://github.com/ranaroussi/yfinance/pull/2897) | ✅ **Merged** |
+| ⚡ **Hugging Face · `accelerate`** | [`concatenate()` fix for non-tensor batch fields across processes (#4120)](https://github.com/huggingface/accelerate/pull/4120) | 🔄 In review |
+
+<div align="center">
+<sub>All contributions are public and reviewable — links resolve to the exact changes.</sub>
+</div>
+
+---
+
 ## 🛠️ &nbsp;Tech Stack
 
 <div align="center">
