@@ -71,10 +71,13 @@ Fixes I've authored and landed in widely-used **AI / ML libraries** — every li
 
 | Project | Contribution | Status |
 |---|---|:--:|
+| 🧠 **OpenAI · `openai-agents-python`** | [Tool parameters named like JSON Schema keywords were silently dropped (#4036)](https://github.com/openai/openai-agents-python/pull/4036) — the schema trimmer recursed into `properties` treating parameter names as keywords, deleting them while leaving them in `required`, so the model received an invalid schema with hidden parameters | ✅ **Merged** |
 | 🤗 **Hugging Face · `datasets`** | [Path-traversal fix in folder-based dataset builders (#8325)](https://github.com/huggingface/datasets/pull/8325) — closed an arbitrary-file-read vector (CWE-22) from an unsanitized metadata `file_name`, covering fsspec chained-URL and symlink-escape cases | ✅ **Merged** |
-| ⚙️ **`statsmodels`** | [Correct Hessian handling for L-BFGS-B / TNC optimizers (#9908)](https://github.com/statsmodels/statsmodels/pull/9908) | ✅ **Merged** |
+| ⚙️ **`statsmodels`** | [Correct Hessian handling for L-BFGS-B / TNC optimizers (#9908)](https://github.com/statsmodels/statsmodels/pull/9908) · [Sison–Glaz multinomial CI failure on sparse counts (#9909)](https://github.com/statsmodels/statsmodels/pull/9909) | ✅ **Merged** |
 | 📈 **`yfinance`** | [Fix read-only-array crash in dividend-adjust repair (#2897)](https://github.com/ranaroussi/yfinance/pull/2897) | ✅ **Merged** |
+| 🎯 **`outlines`** | [Gemini adapter sent the system message as a chat role instead of a system instruction (#1967)](https://github.com/dottxt-ai/outlines/pull/1967) | 🔄 In review |
 | ⚡ **Hugging Face · `accelerate`** | [`concatenate()` fix for non-tensor batch fields across processes (#4120)](https://github.com/huggingface/accelerate/pull/4120) | 🔄 In review |
+| 🔎 **Hugging Face · `sentence-transformers`** | [Detach the KL teacher & fix per-layer weighting in `AdaptiveLayerLoss` (#3880)](https://github.com/huggingface/sentence-transformers/pull/3880) | 🔄 In review |
 
 <div align="center">
 <sub>All contributions are public and reviewable — links resolve to the exact changes.</sub>
