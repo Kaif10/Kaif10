@@ -65,24 +65,17 @@
 
 <div align="center">
 
-Fixes I've authored and landed in widely-used **AI / ML libraries** — every link goes straight to the PR.
+Fixes I've authored and **merged** into widely-used **AI / ML libraries** — every link goes straight to the PR.
 
 </div>
 
-| Project | Contribution | Status |
+| Project | Contribution | |
 |---|---|:--:|
 | 🧠 **OpenAI · `openai-agents-python`** | [Tool parameters named like JSON Schema keywords were silently dropped (#4036)](https://github.com/openai/openai-agents-python/pull/4036) — the schema trimmer recursed into `properties` treating parameter names as keywords, deleting them while leaving them in `required`, so the model received an invalid schema with hidden parameters | ✅ **Merged** |
 | 🤗 **Hugging Face · `datasets`** | [Path-traversal fix in folder-based dataset builders (#8325)](https://github.com/huggingface/datasets/pull/8325) — closed an arbitrary-file-read vector (CWE-22) from an unsanitized metadata `file_name`, covering fsspec chained-URL and symlink-escape cases | ✅ **Merged** |
 | ⚙️ **`statsmodels`** | [Correct Hessian handling for L-BFGS-B / TNC optimizers (#9908)](https://github.com/statsmodels/statsmodels/pull/9908) · [Sison–Glaz multinomial CI failure on sparse counts (#9909)](https://github.com/statsmodels/statsmodels/pull/9909) | ✅ **Merged** |
 | 📈 **`yfinance`** | [Fix read-only-array crash in dividend-adjust repair (#2897)](https://github.com/ranaroussi/yfinance/pull/2897) | ✅ **Merged** |
 | 🧮 **`TheAlgorithms/Python`** *(223k★)* | [Job-scraping module (#2219)](https://github.com/TheAlgorithms/Python/pull/2219) — [`web_programming/fetch_jobs.py`](https://github.com/TheAlgorithms/Python/blob/master/web_programming/fetch_jobs.py), still shipping and maintained five years on | ✅ **Merged** |
-| 🧠 **OpenAI · `openai-agents-python`** | [Signed reasoning blocks leaked across conversation turns (#4089)](https://github.com/openai/openai-agents-python/pull/4089) — a reasoning item not followed by its own assistant message kept its thinking blocks pending, so a previous turn's private reasoning was replayed on a later one | 🔄 In review |
-| 🧠 **OpenAI · `openai-agents-python`** | [Output guardrail results were dropped when a tripwire aborted the run (#4090)](https://github.com/openai/openai-agents-python/pull/4090) | 🔄 In review |
-| 🔶 **`keras`** *(64k★)* | [`CategoryEncoding.get_config()` silently dropped `sparse` (#23375)](https://github.com/keras-team/keras/pull/23375) — a saved model reloaded dense instead of sparse; every sibling preprocessing layer already serialized it | 🔄 In review |
-| 🎯 **`outlines`** | [Gemini adapter sent the system message as a chat role instead of a system instruction (#1967)](https://github.com/dottxt-ai/outlines/pull/1967) | 🔄 In review |
-| ⚡ **Hugging Face · `accelerate`** | [`concatenate()` fix for non-tensor batch fields across processes (#4120)](https://github.com/huggingface/accelerate/pull/4120) | 🔄 In review |
-| 🔎 **Hugging Face · `sentence-transformers`** | [Detach the KL teacher & fix per-layer weighting in `AdaptiveLayerLoss` (#3880)](https://github.com/huggingface/sentence-transformers/pull/3880) | 🔄 In review |
-| 🧩 **Hugging Face · `peft`** | [LoRA+ `loraplus_lr_embedding` never applied — the `embedding` param group was always empty (#3499)](https://github.com/huggingface/peft/issues/3499) — reported with a repro; fix ready | 🔍 Reported |
 
 <div align="center">
 <sub>All contributions are public and reviewable — links resolve to the exact changes.</sub>
