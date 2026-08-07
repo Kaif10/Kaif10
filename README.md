@@ -65,25 +65,49 @@
 
 <div align="center">
 
-Fixes I've authored and **merged** into widely-used **AI / ML libraries** — every link goes straight to the PR.
+**11 merged fixes** across **9 repositories** · **400k+** combined stars
+<sub>Real correctness bugs — schema corruption, a security vulnerability, silent training-time no-ops — each reviewed and merged by maintainers.</sub>
 
 </div>
 
-| Project | Contribution | |
-|---|---|:--:|
-| 🧠 **OpenAI · `openai-agents-python`** *(28k★)* — **3 fixes** | [Tool parameters named like JSON Schema keywords were silently dropped (#4036)](https://github.com/openai/openai-agents-python/pull/4036) — the schema trimmer recursed into `properties` treating parameter names as keywords, deleting them while leaving them in `required`, so the model received an invalid schema with hidden parameters<br>[Signed reasoning blocks leaked across conversation turns (#4089)](https://github.com/openai/openai-agents-python/pull/4089) — a reasoning item not followed by its own assistant message kept its thinking blocks pending, replaying a previous turn's private reasoning<br>[Output guardrail results were dropped when a tripwire aborted the run (#4090)](https://github.com/openai/openai-agents-python/pull/4090) | ✅ **Merged** |
-| 🤗 **Hugging Face · `datasets`** | [Path-traversal fix in folder-based dataset builders (#8325)](https://github.com/huggingface/datasets/pull/8325) — closed an arbitrary-file-read vector (CWE-22) from an unsanitized metadata `file_name`, covering fsspec chained-URL and symlink-escape cases | ✅ **Merged** |
-| 🎯 **`outlines`** *(15k★)* | [Gemini adapter sent the system message as a chat role instead of a system instruction (#1967)](https://github.com/dottxt-ai/outlines/pull/1967) — `Content.role` only accepts `user`/`model`, so any chat with a system message was malformed; system messages are now collected and passed as `system_instruction` | ✅ **Merged** |
-| ⚙️ **`statsmodels`** | [Correct Hessian handling for L-BFGS-B / TNC optimizers (#9908)](https://github.com/statsmodels/statsmodels/pull/9908) · [Sison–Glaz multinomial CI failure on sparse counts (#9909)](https://github.com/statsmodels/statsmodels/pull/9909) | ✅ **Merged** |
-| 🧩 **Hugging Face · `peft`** *(21k★)* | [LoRA+ `loraplus_lr_embedding` was silently ignored (#3503)](https://github.com/huggingface/peft/pull/3503) — the embedding parameter group was always empty because a parameter name was resolved instead of its owning module, so embedding LoRA weights trained at the base learning rate and missed the B-matrix boost since 2024 | ✅ **Merged** |
-| 🔶 **`keras`** *(64k★)* | [`CategoryEncoding.get_config()` silently dropped `sparse` (#23375)](https://github.com/keras-team/keras/pull/23375) — a saved model reloaded dense instead of sparse, with no error; every sibling preprocessing layer already serialized it | ✅ **Merged** |
-| 🔎 **Hugging Face · `sentence-transformers`** *(19k★)* | [Detach the KL teacher & fix per-layer weighting in `AdaptiveLayerLoss` (#3880)](https://github.com/huggingface/sentence-transformers/pull/3880) — gradients were flowing back into the distillation teacher, and a bracketing error scaled the per-layer loss by `N²` | ✅ **Merged** |
-| 📈 **`yfinance`** | [Fix read-only-array crash in dividend-adjust repair (#2897)](https://github.com/ranaroussi/yfinance/pull/2897) | ✅ **Merged** |
-| 🧮 **`TheAlgorithms/Python`** *(223k★)* | [Job-scraping module (#2219)](https://github.com/TheAlgorithms/Python/pull/2219) — [`web_programming/fetch_jobs.py`](https://github.com/TheAlgorithms/Python/blob/master/web_programming/fetch_jobs.py), still shipping and maintained five years on | ✅ **Merged** |
+| | Project | Merged fixes |
+|:--:|---|---|
+| 🧠 | **OpenAI** · `openai-agents-python` <sub>28k★</sub> | [#4036](https://github.com/openai/openai-agents-python/pull/4036) tool-schema corruption · [#4089](https://github.com/openai/openai-agents-python/pull/4089) cross-turn reasoning leak · [#4090](https://github.com/openai/openai-agents-python/pull/4090) guardrail reporting |
+| 🤗 | **Hugging Face** · `datasets` <sub>22k★</sub> | [#8325](https://github.com/huggingface/datasets/pull/8325) path-traversal vulnerability *(CWE-22)* |
+| 🧩 | **Hugging Face** · `peft` <sub>21k★</sub> | [#3503](https://github.com/huggingface/peft/pull/3503) LoRA+ embedding learning rate never applied |
+| 🔎 | **Hugging Face** · `sentence-transformers` <sub>19k★</sub> | [#3880](https://github.com/huggingface/sentence-transformers/pull/3880) gradient leak in distillation loss |
+| 🔶 | **Keras** <sub>64k★</sub> | [#23375](https://github.com/keras-team/keras/pull/23375) layer config dropped `sparse` on reload |
+| 🎯 | `outlines` <sub>15k★</sub> | [#1967](https://github.com/dottxt-ai/outlines/pull/1967) Gemini system-instruction handling |
+| 🧮 | `TheAlgorithms/Python` <sub>223k★</sub> | [#2219](https://github.com/TheAlgorithms/Python/pull/2219) job-scraping module — still shipping 5 years on |
+| ⚙️ | `statsmodels` | [#9908](https://github.com/statsmodels/statsmodels/pull/9908) optimizer Hessian handling · [#9909](https://github.com/statsmodels/statsmodels/pull/9909) sparse multinomial CI |
+| 📈 | `yfinance` | [#2897](https://github.com/ranaroussi/yfinance/pull/2897) dividend-repair crash |
 
-<div align="center">
-<sub>All contributions are public and reviewable — links resolve to the exact changes.</sub>
-</div>
+<details>
+<summary><sub><b>What each fix actually did →</b></sub></summary>
+
+<br/>
+
+**OpenAI · `openai-agents-python`**
+- **#4036** — the tool-output schema trimmer recursed into `properties` treating *parameter names* as schema keywords, deleting any parameter called `description`/`title`/`examples` while leaving it in `required`. The model received an invalid schema with hidden parameters.
+- **#4089** — a reasoning item not immediately followed by its assistant message kept its signed thinking blocks pending, so a previous turn's private reasoning was replayed on a later turn.
+- **#4090** — output guardrail results were discarded when a tripwire aborted the run, mirroring a fix the maintainers had just landed for input guardrails.
+
+**Hugging Face · `datasets` — #8325**
+An unsanitized `file_name` in dataset metadata allowed arbitrary file reads (CWE-22). The fix covers absolute paths, `..` traversal, fsspec chained URLs (`zip://…::…`) and symlink escapes.
+
+**Hugging Face · `peft` — #3503**
+LoRA+'s `loraplus_lr_embedding` had been a silent no-op since 2024: the code resolved a *parameter* where it needed the owning *module*, so the embedding parameter group was always empty and embedding LoRA weights trained at the base learning rate, missing the B-matrix boost that LoRA+ exists to provide.
+
+**Hugging Face · `sentence-transformers` — #3880**
+In `AdaptiveLayerLoss`, the KL-divergence teacher was never detached, so gradients flowed back into the final layer — pulling the teacher toward the students. A bracketing error also scaled the per-layer loss by a factor of `N²`.
+
+**Keras — #23375**
+`CategoryEncoding.get_config()` omitted `sparse`, so a model saved with `sparse=True` silently reloaded dense. Every sibling preprocessing layer already serialized it.
+
+**`outlines` — #1967**
+Gemini's `Content.role` accepts only `user`/`model`, but the adapter passed `system` straight through, malforming every chat with a system message. System messages are now collected — wherever they appear — and passed as `system_instruction`.
+
+</details>
 
 ---
 
