@@ -65,13 +65,14 @@
 
 <div align="center">
 
-**11 merged fixes** across **9 repositories** · **400k+** combined stars
+**12 merged fixes** across **10 repositories** · **490k+** combined stars
 <sub>Real correctness bugs — schema corruption, a security vulnerability, silent training-time no-ops — each reviewed and merged by maintainers.</sub>
 
 </div>
 
 | | Project | Merged fixes |
 |:--:|---|---|
+| ⚡ | **vLLM** <sub>89k★</sub> | [#52528](https://github.com/vllm-project/vllm/pull/52528) malformed JSON bodies returned 500 instead of 422 |
 | 🧠 | **OpenAI** · `openai-agents-python` <sub>28k★</sub> | [#4036](https://github.com/openai/openai-agents-python/pull/4036) tool-schema corruption · [#4089](https://github.com/openai/openai-agents-python/pull/4089) cross-turn reasoning leak · [#4090](https://github.com/openai/openai-agents-python/pull/4090) guardrail reporting |
 | 🤗 | **Hugging Face** · `datasets` <sub>22k★</sub> | [#8325](https://github.com/huggingface/datasets/pull/8325) path-traversal vulnerability *(CWE-22)* |
 | 🧩 | **Hugging Face** · `peft` <sub>21k★</sub> | [#3503](https://github.com/huggingface/peft/pull/3503) LoRA+ embedding learning rate never applied |
@@ -86,6 +87,9 @@
 <summary><sub><b>What each fix actually did →</b></sub></summary>
 
 <br/>
+
+**vLLM — #52528**
+Thirteen Pydantic `mode="before"` validators across six OpenAI-compatible endpoints called `data.get(...)` without checking that `data` was a mapping. Any request whose JSON body was a bare list, string, or number — trivially reachable by a misconfigured client — raised `AttributeError` inside validation and surfaced as HTTP 500 rather than a 422 validation error. Now every affected validator short-circuits on non-mapping input so Pydantic reports it properly.
 
 **OpenAI · `openai-agents-python`**
 - **#4036** — the tool-output schema trimmer recursed into `properties` treating *parameter names* as schema keywords, deleting any parameter called `description`/`title`/`examples` while leaving it in `required`. The model received an invalid schema with hidden parameters.
