@@ -65,7 +65,7 @@
 
 <div align="center">
 
-**13 merged fixes** across **10 repositories** · **490k+** combined stars
+**14 merged fixes** across **11 repositories** · **510k+** combined stars
 <sub>Real correctness bugs — schema corruption, a security vulnerability, silent training-time no-ops — each reviewed and merged by maintainers.</sub>
 
 </div>
@@ -73,6 +73,7 @@
 | | Project | Merged fixes |
 |:--:|---|---|
 | ⚡ | **vLLM** <sub>89k★</sub> | [#52528](https://github.com/vllm-project/vllm/pull/52528) malformed JSON bodies returned 500 instead of 422 · [#52529](https://github.com/vllm-project/vllm/pull/52529) batched `echo` prepended the user's prompt to the assistant reply |
+| 🔺 | **OpenAI** · `triton` <sub>20k★</sub> | [#11602](https://github.com/triton-lang/triton/pull/11602) autotuner silently ignored unknown `key` names, so kernels never re-tuned |
 | 🧠 | **OpenAI** · `openai-agents-python` <sub>28k★</sub> | [#4036](https://github.com/openai/openai-agents-python/pull/4036) tool-schema corruption · [#4089](https://github.com/openai/openai-agents-python/pull/4089) cross-turn reasoning leak · [#4090](https://github.com/openai/openai-agents-python/pull/4090) guardrail reporting |
 | 🤗 | **Hugging Face** · `datasets` <sub>22k★</sub> | [#8325](https://github.com/huggingface/datasets/pull/8325) path-traversal vulnerability *(CWE-22)* |
 | 🧩 | **Hugging Face** · `peft` <sub>21k★</sub> | [#3503](https://github.com/huggingface/peft/pull/3503) LoRA+ embedding learning rate never applied |
@@ -87,6 +88,9 @@
 <summary><sub><b>What each fix actually did →</b></sub></summary>
 
 <br/>
+
+**OpenAI · `triton` — #11602**
+`key`, `reset_to_zero` and `restore_value` are documented as lists of kernel argument names, but a name that wasn't one was silently dropped when the tuning key was built — so a stale or misspelled entry left the kernel autotuning once and reusing that config no matter how the real argument changed. No error, no warning; the only symptom was a kernel that quietly stopped re-tuning. An AST scan of the repository found the footgun live in Triton's own test suite. The fix validates the three name lists up front, and also initializes `restore_copies`, which was unset whenever a user-supplied `pre_hook` was combined with `restore_value`.
 
 **vLLM — #52528, #52529**
 Thirteen Pydantic `mode="before"` validators across six OpenAI-compatible endpoints called `data.get(...)` without checking that `data` was a mapping. Any request whose JSON body was a bare list, string, or number — trivially reachable by a misconfigured client — raised `AttributeError` inside validation and surfaced as HTTP 500 rather than a 422 validation error. Now every affected validator short-circuits on non-mapping input so Pydantic reports it properly.
