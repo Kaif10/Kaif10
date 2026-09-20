@@ -65,7 +65,7 @@
 
 <div align="center">
 
-**14 merged fixes** across **11 repositories** · **510k+** combined stars
+**15 merged fixes** across **12 repositories** · **515k+** combined stars
 <sub>Real correctness bugs — schema corruption, a security vulnerability, silent training-time no-ops — each reviewed and merged by maintainers.</sub>
 
 </div>
@@ -74,6 +74,7 @@
 |:--:|---|---|
 | ⚡ | **vLLM** <sub>89k★</sub> | [#52528](https://github.com/vllm-project/vllm/pull/52528) malformed JSON bodies returned 500 instead of 422 · [#52529](https://github.com/vllm-project/vllm/pull/52529) batched `echo` prepended the user's prompt to the assistant reply |
 | 🔺 | **OpenAI** · `triton` <sub>20k★</sub> | [#11602](https://github.com/triton-lang/triton/pull/11602) autotuner silently ignored unknown `key` names, so kernels never re-tuned |
+| 🔥 | **Meta** · `torchtitan` <sub>5.7k★</sub> | [#4797](https://github.com/pytorch/torchtitan/pull/4797) Llama 3 HF checkpoint export crashed above 8-way FSDP — q/k permute wasn't DTensor-safe |
 | 🧠 | **OpenAI** · `openai-agents-python` <sub>28k★</sub> | [#4036](https://github.com/openai/openai-agents-python/pull/4036) tool-schema corruption · [#4089](https://github.com/openai/openai-agents-python/pull/4089) cross-turn reasoning leak · [#4090](https://github.com/openai/openai-agents-python/pull/4090) guardrail reporting |
 | 🤗 | **Hugging Face** · `datasets` <sub>22k★</sub> | [#8325](https://github.com/huggingface/datasets/pull/8325) path-traversal vulnerability *(CWE-22)* |
 | 🧩 | **Hugging Face** · `peft` <sub>21k★</sub> | [#3503](https://github.com/huggingface/peft/pull/3503) LoRA+ embedding learning rate never applied |
@@ -91,6 +92,9 @@
 
 **OpenAI · `triton` — #11602**
 `key`, `reset_to_zero` and `restore_value` are documented as lists of kernel argument names, but a name that wasn't one was silently dropped when the tuning key was built — so a stale or misspelled entry left the kernel autotuning once and reusing that config no matter how the real argument changed. No error, no warning; the only symptom was a kernel that quietly stopped re-tuning. An AST scan of the repository found the footgun live in Triton's own test suite. The fix validates the three name lists up front, and also initializes `restore_copies`, which was unset whenever a user-supplied `pre_hook` was combined with `restore_value`.
+
+**Meta · `torchtitan` — #4797**
+Llama 3's HuggingFace checkpoint conversion permutes the q/k projection weights with a head-splitting `view()`. In a real training run those weights are DTensors that FSDP shards along dim 0 — the very dim being unflattened — so any FSDP degree that doesn't evenly divide the head count raised `Cannot unflatten unevenly sharded tensor`. For Llama-3-8B (`n_kv_heads=8`) that meant HF export broke on every run wider than 8 ranks, i.e. every multi-node job. A sibling model (`muse_glimmer`) had already hit the identical failure and fixed it with a local decorator that redistributes to `Replicate`, permutes the full tensor, and restores the original placements — but only for itself. The fix hoists that decorator into the shared adapter protocol, applies it to Llama 3, and deletes the duplicate. Two CPU tests pin it down: a fake 32-rank process group that reproduces the exact production error, and a real gloo round-trip proving values and placements survive untouched.
 
 **vLLM — #52528, #52529**
 Thirteen Pydantic `mode="before"` validators across six OpenAI-compatible endpoints called `data.get(...)` without checking that `data` was a mapping. Any request whose JSON body was a bare list, string, or number — trivially reachable by a misconfigured client — raised `AttributeError` inside validation and surfaced as HTTP 500 rather than a 422 validation error. Now every affected validator short-circuits on non-mapping input so Pydantic reports it properly.
